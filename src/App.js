@@ -8,7 +8,7 @@ import {
 import idl from './idl.json';
 import kp from './keypair.json'
 // SystemProgram is a reference to the Solana runtime!
-const { SystemProgram, Keypair } = web3;
+const { SystemProgram } = web3;
 
 const arr = Object.values(kp._keypair.secretKey)
 const secret = new Uint8Array(arr)
